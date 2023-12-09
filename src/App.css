@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.grid-container {
+  background-color: #2A2E41;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 0.05fr 1fr;
+}
+
+/* Sidebar styling */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #343A4F;
+  border-right: 1px solid black;
+  padding: 0 20px;
+}
+
+.top-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-icon {
+  margin-top: auto;
+}
+
+.icon {
+  font-size: 27px;
+  text-align: center;
+  margin-top: 40px;
+  color: black;
+}
+
+/* Main page styling */
+.main-container .header {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.travel-icon {
+  color: yellow;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.header .top {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: aliceblue;
+  text-shadow: rgb(238, 191, 1) 1px 0 10px;
+}
+
+#search-bar {
+  margin: 8px 20px auto auto;
+  padding: 6px;
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 15em;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translateY(-75%);
+  pointer-events: none;
+}
+
+#search-bar {
+  padding-left: 17px;
+}
+
+/* Cards styling */
+.col {
+  height: 10em;
+  width: 5em;
+  margin: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: black;
+}
+.cards-section{
+  margin-top: 30px;
+}
