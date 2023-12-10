@@ -13,10 +13,10 @@ const Sidebar = () => {
           <FaHome className="icon" />
           <IoBagCheckSharp className="icon" />
           <MdOutlinePeopleAlt className="icon" />
-          <FaPowerOff className="icon" />
+          <IoMdSettings className="icon" />
         </div>
         <div className="bottom-icon">
-          <IoMdSettings className="icon" />
+        <FaPowerOff className="icon" />
         </div>
       </div>
     </div>

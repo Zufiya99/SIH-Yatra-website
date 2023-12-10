@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsFillSuitcase2Fill, BsSearch } from "react-icons/bs";
 import Cards from './Cards';
+import GridBoxes from './GridBoxes';
 
 const Main = () => {
   return (
@@ -23,8 +24,7 @@ const Main = () => {
         <div className="main-section">
           <div className="cards-section">
             <Cards />
-            <Cards />
-            <Cards />
+            <GridBoxes/>
           </div>
         </div>
       </div>

@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
 }
-body{
-  overflow: hidden;
+
+body {
   font-family: sans-serif;
 }
 
@@ -94,11 +94,30 @@ body{
 .col {
   height: 10em;
   width: 5em;
-  margin: 20px;
+  margin: 13px;
   border-radius: 10px;
   border: 2px solid black;
   color: black;
 }
-.cards-section{
+
+.cards-section {
   margin-top: 30px;
 }
+
+.longCard {
+  height: 10em;
+  border: 2px solid black;
+}
+
+/* Example CSS */
+.box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.box-last {
+  height: 200px;
+}
+
