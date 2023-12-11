@@ -10,7 +10,7 @@ import "./App.css"
 
 const App = () => {
   return (
-    <Router> {/* Use <Router> instead of <BrowserRouter> */}
+    <Router>
       <div className="app-container">
         <div className="grid-container">
           <Sidebar />

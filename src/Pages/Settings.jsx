@@ -3,7 +3,7 @@ import React from 'react'
 const Settings = () => {
   return (
     <div>
-      <h1>Settings</h1>
+      <h1 style={{color: "black"}}>Settings coming soon...</h1>
     </div>
   )
 }
