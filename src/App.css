@@ -5,6 +5,7 @@
 
 body {
   font-family: sans-serif;
+  overflow: hidden;
 }
 
 .grid-container {
@@ -32,6 +33,7 @@ body {
 
 .bottom-icon {
   margin-top: auto;
+  margin-bottom: 12px;
 }
 
 .icon {
@@ -39,6 +41,11 @@ body {
   text-align: center;
   margin-top: 40px;
   color: black;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
 }
 
 /* Main page styling */
@@ -142,15 +149,157 @@ body {
 }
 
 .home-header {
-  margin: 20px;
+  height: 10vh;
+  display: flex;
+  margin: 7px;
 }
 
-#marquee {
+#blinking-logo {
   color: rgb(223, 186, 41);
   text-shadow: rgb(247, 15, 15) 1px 0 10px;
   font-size: 30px;
 }
 
 .marquee-sec {
-  border-bottom: 2px solid black;
+  width: 30vw;
+  margin-left: auto;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.6;
+    text-shadow: rgb(248, 0, 0) 1px 0 10px;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#blinking-logo {
+  animation: blink 1.3s infinite;
+}
+
+.image-container {
+  position: relative;
+  /* display: inline-block; */
+  display: flex;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  /* height: 50vh; */
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.text-overlay {
+  padding: 50px;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  /* font-size: 40px; */
+  margin: 0;
+}
+
+#highlights {
+  color: aqua;
+}
+
+.welcome {
+  color: whitesmoke;
+  text-shadow: rgb(212, 39, 39) 3px 0 10px;
+}
+
+#welcome-line {
+  color: aquamarine;
+  text-shadow: rgb(238, 191, 1) 0 0 0;
+}
+
+.welcome-para {
+  color: bisque;
+}
+
+/* Tourist places styling */
+.tourism-heading {
+  margin-bottom: 30px;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: rgb(238, 191, 1) 1px 0 10px;
+}
+
+.place-image {
+  height: 150px;
+}
+
+.btn-primary {
+  transition: transform 0.3s ease;
+}
+
+.btn-primary:hover .arrow {
+  transform: translateX(5px);
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+.card {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  transition: 0.5s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.card-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  color: rgb(233, 201, 201);
+}
+
+.card:hover .card-layer {
+  opacity: 1;
+}
+
+.arrow {
+  margin-left: 5px;
+  transform: translateX(0);
+  transition: transform 0.4s ease;
+}
+
+.btn:hover .arrow {
+  transform: translateX(3px);
+}
+.more-link{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 17px;
+}
+.more-link:hover{
+  color: aquamarine;
 }

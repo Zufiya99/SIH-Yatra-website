@@ -25,13 +25,16 @@ const Cards = () => {
                     <p>- {author}</p>
                 </div>
                 <div className="col">
-                    Column
+                    <p>{quote}</p>
+                    <p>- {author}</p>
                 </div>
                 <div className="col">
-                    Column
+                    <p>{quote}</p>
+                    <p>- {author}</p>
                 </div>
                 <div className="col">
-                    Column
+                    <p>{quote}</p>
+                    <p>- {author}</p>
                 </div>
             </div>
         </div>
