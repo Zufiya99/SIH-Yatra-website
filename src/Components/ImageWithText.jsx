@@ -35,7 +35,7 @@ const ImageWithText = () => {
         <p className='welcome-para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis nesciunt reiciendis, modi voluptates ullam neque atque magni? Maxime quibusdam et a rerum tempora, autem tenetur ut cupiditate ad, libero quasi dolores. Aperiam sapiente porro ipsam, dolores tempora, recusandae aspernatur, voluptatem omnis doloribus illo expedita laudantium reprehenderit voluptates exercitationem aliquid neque dicta quo quae placeat iusto itaque odit aut architecto non. Inventore aliquam ipsa autem reprehenderit, quisquam commodi ut mollitia delectus praesentium animi aut eum labore est blanditiis voluptas maiores deleniti in incidunt officiis sunt provident. Itaque suscipit hic error debitis, quasi neque dolorum? Fuga obcaecati ratione expedita reprehenderit numquam dolorem?</p>
       </div>
       <img
-        src="../public/Images/tourism.jpg"
+        src="https://static6.depositphotos.com/1006568/627/i/450/depositphotos_6274141-stock-photo-travel-%E2%80%93-collection-of-the.jpg"
         alt="Image"
         className="image"
       />
