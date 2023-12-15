@@ -13,7 +13,6 @@ const Home = () => {
             <span className='home-heading'>Yatra</span>
           </div>
           <div className="marquee-sec">
-            {/* <marquee behavior="" direction="" id="marquee">Ministry of tours and travels</marquee> */}
             <h4 id="blinking-logo">Ministry of tours and travel</h4>
           </div>
         </div>

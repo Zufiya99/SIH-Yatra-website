@@ -7,10 +7,10 @@ const GridBoxes = () => {
 
     useEffect(() => {
         //Random API of quotes to check the integration of API
-        fetch("https://api.quotable.io/random")
+        fetch("../data.json")
             .then(response => response.json())
             .then(data => {
-                setQuote(data.content);
+                setQuote(data.nri);
                 setAuthor(data.author);
             })
             .catch(error => console.log(error));

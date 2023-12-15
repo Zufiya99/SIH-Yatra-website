@@ -2,8 +2,20 @@ import React from 'react';
 import { BsFillSuitcase2Fill, BsSearch } from "react-icons/bs";
 import Cards from './Cards';
 import GridBoxes from './GridBoxes';
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
 
 const Main = () => {
+  useEffect(() => {
+    ScrollReveal({
+      reset: true,
+      distance: '100px',
+      duration: 2500,
+      delay: 40
+    });
+
+    ScrollReveal().reveal('.main-section', { origin: 'left' });
+  }, []);
   return (
     <>
       <div className="main-container">
@@ -24,7 +36,7 @@ const Main = () => {
         <div className="main-section">
           <div className="cards-section">
             <Cards />
-            <GridBoxes/>
+            <GridBoxes />
           </div>
         </div>
       </div>

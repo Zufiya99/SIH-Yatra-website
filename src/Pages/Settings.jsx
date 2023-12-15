@@ -24,7 +24,7 @@ const Settings = () => {
         <SettingSidebar />
         <div className="settings-right scrollable-content">
           <div className="update-detail text-center">
-            <h1>Update details</h1>
+            <h3>Update details</h3>
           </div>
           <div className="personal-details">
             <div className="profile-pic">
