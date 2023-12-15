@@ -322,7 +322,7 @@ body {
 .settings-content {
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .settings-left {
@@ -342,24 +342,20 @@ li {
   font-size: large;
 }
 
-/* .profile-pic {
-  height: 120px;
-  width: 120px;
-  border-radius: 50%;
-  background-color: white;
-  margin: 10px;
-} */
-.profile-img{
+.profile-img {
   border-radius: 50%;
   border: 2px solid black;
 }
-.personal-details{
+
+.personal-details {
   display: flex;
-  margin: 10px auto;
+  margin: auto;
 }
-.details{
+
+.details {
   margin: 20px;
 }
+
 .settings-right {
   border: 2px solid black;
   box-shadow:
@@ -401,9 +397,10 @@ li {
   font-size: 25px;
 }
 
-.textfieldArea{
+.textfieldArea {
   width: 30%;
 }
+
 .textfieldArea .MuiOutlinedInput-root {
   border-radius: 50px;
   color: whitesmoke;
@@ -449,10 +446,114 @@ li {
   color: whitesmoke;
   border: 1px solid black;
 }
+
 .update-detail {
-  margin: 0 auto;
-  text-decoration: underline;
+  margin: 10px auto;
+  color: #2a9d8f;
 }
-.update-btn{
+
+.update-btn {
   margin: auto;
+}
+
+.privacy-policy {
+  display: flex;
+}
+
+.privacy-column {
+  width: 50%;
+}
+
+/* Change Password Component Styles */
+.change-password-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.change-password-btn {
+  background-color: #2a9d8f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.change-password-btn:hover {
+  background-color: #21867a;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.scrollable-content {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.help-section {
+  width: 40%;
+}
+
+.social-icon {
+  font-size: 2rem;
+  margin: 0 10px;
+  color: pink;
+  text-shadow: red 1px 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: translateY(-5px);
+}
+
+.social-icon svg {
+  transition: fill 0.3s ease-in-out;
+}
+
+.questions{
+  font-weight: bold;
+}
+
+/* About page */
+.user-details{
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+.details{
+  padding: auto 40px;
+  width: 30%;
+}
+.details > label{
+  font-weight: bold;
+  font-size: 20px;
 }

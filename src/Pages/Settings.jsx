@@ -22,17 +22,17 @@ const Settings = () => {
       <h1 className="settings-heading">Settings and Privacy</h1>
       <div className="settings-content">
         <SettingSidebar />
-        <div className="settings-right">
+        <div className="settings-right scrollable-content">
           <div className="update-detail text-center">
             <h1>Update details</h1>
           </div>
           <div className="personal-details">
             <div className="profile-pic">
-              <img src="https://static.vecteezy.com/system/resources/previews/020/765/399/non_2x/default-profile-account-unknown-icon-black-silhouette-free-vector.jpg" alt="" width="120px" className='profile-img' />
+              <img src="https://cdn5.vectorstock.com/i/1000x1000/25/54/businessman-profile-ico-vector-20022554.jpg" alt="" width="120px" className='profile-img' />
             </div>
             <div className="details">
-              <h3>XYZ</h3>
-              <h6>Role</h6>
+              <h3>John Doe</h3>
+              <h6>Frontend developer</h6>
             </div>
           </div>
           <div className="custom-textfields">

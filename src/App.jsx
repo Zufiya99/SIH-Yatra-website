@@ -24,7 +24,7 @@ const App = () => {
             <Route path="/companies" element={<Companies />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/logout" element={<Logout />} />
-            <Route path="/about-us" element={<About />} />
+            <Route path="/about" element={<About />} />
             <Route path="/change-password" element={<ChangePwd />} />
             <Route path="/help-center" element={<Help />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
