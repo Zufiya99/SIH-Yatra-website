@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 
@@ -32,6 +32,15 @@ body {
   grid-template-columns: 0.05fr 1fr;
 }
 
+.data-head {
+  font-weight: bold;
+  color: wheat;
+}
+
+.data {
+  font-size: 34px;
+  color: pink;
+}
 
 .top-icons {
   display: flex;
@@ -121,25 +130,12 @@ body {
 
 }
 
-.cards-section {
+/* .cards-section {
   margin-top: 30px;
-}
+} */
 
-.longCard {
-  height: 10em;
-  border: 2px solid black;
-}
-
-/* Example CSS */
-.box {
-  border: 1px solid #ccc;
-  padding: 10px;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.box-last {
-  height: 200px;
+.visuals{
+  display: flex;
 }
 
 /* Home page */

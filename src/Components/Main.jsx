@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsFillSuitcase2Fill, BsSearch } from "react-icons/bs";
-import Cards from './Cards';
+// import Cards from './Cards';
+import Visuals from './Visuals';
 import GridBoxes from './GridBoxes';
 import ScrollReveal from 'scrollreveal';
 import { useEffect } from 'react';
@@ -35,7 +36,8 @@ const Main = () => {
         {/* Main card section */}
         <div className="main-section">
           <div className="cards-section">
-            <Cards />
+            {/* <Cards /> */}
+            <Visuals/>
             <GridBoxes />
           </div>
         </div>
