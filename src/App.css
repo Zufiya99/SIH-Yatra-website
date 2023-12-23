@@ -101,6 +101,16 @@ body {
   position: relative;
 }
 
+.search-box-new {
+  border: 1px solid #000; /* Replace #000 with the desired border color */
+  font-size: small;
+  color: #000000;
+  position: relative;
+  align-items: center;
+  text-align: center;   
+  background: #ccc;
+}
+
 .search-icon {
   position: absolute;
   top: 50%;

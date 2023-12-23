@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 import { MdOutlineInsertLink } from "react-icons/md";
-import ScrollReveal from "scrollreveal";
-import "../App.css";
+import ScrollReveal from 'scrollreveal';
+import '../App.css';
 
 const Companies = () => {
   const placeImages = [
@@ -65,7 +65,7 @@ const Companies = () => {
   return (
     <>
       <div className="container">
-        <h2 className="tourism-heading">Tourist places in India</h2>
+        <h2 className='tourism-heading'>Tourist places in India</h2>
         <div className="row">
           {placeImages.map((image, index) => (
             <div key={index} className="col-md-3 mb-3">
