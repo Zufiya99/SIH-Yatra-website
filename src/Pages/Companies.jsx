@@ -4,6 +4,9 @@ import { MdOutlineInsertLink } from "react-icons/md";
 import ScrollReveal from 'scrollreveal';
 import '../App.css';
 
+
+
+
 const Companies = () => {
   const placeImages = [
     "https://img.traveltriangle.com/blog/wp-content/uploads/2023/06/PTV-India-OG-Final.png",
@@ -56,6 +59,7 @@ const Companies = () => {
     <>
       <div className="container">
         <h2 className='tourism-heading'>Tourist places in India</h2>
+        <h4><div className="search-box-new">Seach here</div></h4>
         <div className="row">
           {placeImages.map((image, index) => (
             <div key={index} className="col-md-3 mb-3">
