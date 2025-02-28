@@ -1,36 +1,22 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Companies from './Pages/Companies';
-import Home from './Pages/Home';
-import Settings from './Pages/Settings';
-import Logout from './Pages/Logout';
-import Main from './Components/Main';
-import Sidebar from './Components/Sidebar';
-import "./App.css"
-import About from './Pages/Settings/About';
-import ChangePwd from './Pages/Settings/ChangePwd';
-import Help from './Pages/Settings/Help';
-import PrivacyPolicy from './Pages/Settings/PrivacyPolicy';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./Components/Navbar";
+import Home from "./Pages/Home";
+import VirtualTour from "./Pages/VirtualTour";
+import Dashboard from "./Pages/Dashboard";
+import Contact from "./Pages/Contact";
+import Footer from "./Components/Footer";
 
-const App = () => {
+function App() {
   return (
     <Router>
-      <div className="app-container">
-        <div className="grid-container">
-          <Sidebar />
-          <Routes>
-            <Route path="/dashboard" element={<Main />} />
-            <Route path="/" element={<Home />} />
-            <Route path="/companies" element={<Companies />} />
-            <Route path="/settings" element={<Settings />} />
-            <Route path="/logout" element={<Logout />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/change-password" element={<ChangePwd />} />
-            <Route path="/help-center" element={<Help />} />
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          </Routes>
-        </div>
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/virtualtour" element={<VirtualTour />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
     </Router>
   );
 }
