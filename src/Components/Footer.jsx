@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-white text-center py-6 shadow-lg">
       <div className="container mx-auto flex flex-col items-center px-4 md:px-8 lg:px-12 space-y-2">
         <p className="text-lg font-semibold tracking-wide text-yellow-400 text-center">
-          &copy; {new Date().getFullYear()} Yatra | Your Travel Partner
+          &copy; {new Date().getFullYear()} TourVista | Your Travel Partner
         </p>
         <p className="text-sm text-gray-400 flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-2 text-center">
           <span>Made by</span>

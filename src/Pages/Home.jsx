@@ -12,7 +12,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Explore the World with Yatra
+          Explore the World with TourVista
         </motion.h1>
         <p className="text-lg text-gray-300 max-w-2xl">
           Your perfect travel companion to discover new places, book trips, and
@@ -121,7 +121,7 @@ export default function Home() {
               {
                 name: "Aisha K.",
                 review:
-                  "Yatra made my vacation stress-free and memorable! Highly recommend!",
+                  "TourVista made my vacation stress-free and memorable! Highly recommend!",
               },
               {
                 name: "Rahul S.",
